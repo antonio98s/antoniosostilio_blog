@@ -14,7 +14,7 @@ module.exports = {
 
   },
   social: {
-    github: 'https://github.com/rolwin100',
+    github: 'https://github.com/antonio98s',
     linkedin:'https://www.linkedin.com/in/antonio-sostilio',
     rss: '/rss.xml',
   },
