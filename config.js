@@ -6,7 +6,7 @@ module.exports = {
   author: 'Antonio Sostilio',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || '',
+  disqusScript: process.env.DISQUS_SCRIPT || 'https://antoniosostilio.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
