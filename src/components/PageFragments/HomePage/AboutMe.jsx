@@ -5,16 +5,10 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some 
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Hello !! My name is Antonio Sostilio. I graduated from Boston College in May 2020 and I am currently seeking employment.
+    As an undergraduate, I worked as an Assistant Front-End Developer for my university. There, I learned technologies such as Adobe Experience Manager CMS as well as HTML, CSS, and JavaScript.
+    I also took courses such as Computer Science I, Database Management, and Design I: Foundations to further my knowledge about Software Development.`,
+  paraTwo: `I enjoy working with a team of professionals in order to deliver the best technological solutions to clients. Check out my site where you can find my projects, resume, and contact information.`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
@@ -25,7 +19,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Antonio', 'Sostilio', 'Junior developer', 'Javascript', 'ReactJS', 'Software Developer', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -36,35 +30,35 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
+            img="passport.png"
             height={60}
-            alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            alt="passport image"
+            textH4="Dual Citizen"
+            textH3="U.S. and E.U. (Italy)"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="languages.png"
+            alt="language image"
+            textH4="Multilingual"
+            textH3="English, Italiano, Español"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            textH4="Collaboration"
+            textH3="Respectful & Outgoing"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="hands.png"
+            alt="hands image"
+            textH4="Customer Service"
+            textH3="Ready to help"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -81,8 +75,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="Pursued B.A. in"
+            textH3="Economics"
             height={60}
             width={60}
           />
