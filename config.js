@@ -18,6 +18,6 @@ module.exports = {
     linkedin:'https://www.linkedin.com/in/antonio-sostilio',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || '',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/780feb21-2b1b-4352-97c5-4d4ea88ff2ff',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
 };
