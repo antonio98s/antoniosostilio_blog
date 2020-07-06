@@ -6,7 +6,7 @@ import SEO from '../../Seo';
 
 const pageText = {
   paraOne: `Hello !! My name is Antonio Sostilio. I graduated from Boston College in May 2020 and I am currently seeking employment.
-    As an undergraduate, I worked as an Assistant Front-End Developer for my university. There, I learned technologies such as Adobe Experience Manager CMS as well as HTML, CSS, and JavaScript.
+    As an undergraduate, I worked as a Web Communications Specialist for my university. There, I learned technologies such as Adobe Experience Manager CMS as well as HTML, CSS, and JavaScript.
     I also took courses such as Computer Science I, Database Management, and Design I: Foundations to further my knowledge about Software Development.`,
   paraTwo: `I enjoy working with a team of professionals in order to deliver the best technological solutions to clients. Check out my site where you can find my projects, resume, and contact information.`,
 };
