@@ -65,8 +65,8 @@ const AboutMe = () => {
           <AboutTile
             img="web.png"
             alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            textH4="Self Taught"
+            textH3="Quick Learner"
             height={60}
             width={60}
           />
